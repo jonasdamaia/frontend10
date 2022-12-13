@@ -1,0 +1,761 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background-color: hsl(240, 75%, 98%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+}
+
+.cabecalho-esquerda{
+    margin: 50px 650px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.cabecalho-direita{
+    margin-left: 120px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-items: right;
+}
+
+.logo1{
+    width: 190px;
+    margin-left: 50px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-items: right;
+}
+
+.menu-opcoes{
+    margin-right: 50px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(238, 22%, 44%);
+    cursor: pointer;
+}
+
+.corpo1{
+    display: flex;
+    flex-direction: row;
+    height: 560px;
+}
+
+.corpo-esquerda1{
+    margin: 90px 0px 0px 50px;
+    width: 50%;
+}
+
+.corpo-direita1{
+    width: 50%;
+    margin-top: 50px;
+}
+
+
+.foto1{
+    width: 550px;
+    height: 400px;
+    margin-left: 30px;
+}
+
+.titulo1{
+    color: hsl(243, 87%, 12%);
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 90px;
+}
+
+.texto1{
+    color: hsl(243, 87%, 12%);
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -20px;
+    margin-right: 50px;
+}
+
+.entrada-texto1{
+    width: 320px;
+    height: 35px;
+}
+
+.botao1{
+    width: 200px;
+    height: 40px;
+    background-color: hsl(224, 93%, 58%);
+    color: hsl(240, 75%, 98%);
+    border-radius: 5px;
+    border-color: hsl(224, 93%, 58%);
+    cursor: pointer;
+}
+
+.botao1:hover{
+    width: 200px;
+    height: 40px;
+    background-color: hsl(224, 91%, 69%);
+    color: hsl(240, 75%, 98%);
+    border-radius: 5px;
+    border-color: hsl(224, 91%, 69%);
+    cursor: pointer;
+}
+
+.corpo2{
+    display: flex;
+    flex-direction: row;
+    height: 670px;
+}
+
+.corpo-esquerda2{
+    margin: 90px 0px 0px 50px;
+    width: 50%;
+}
+
+.corpo-direita2{
+    width: 50%;
+    margin-top: 50px;
+}
+
+.foto2{
+    width: 450px;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.titulo2{
+    color: hsl(243, 87%, 12%);
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.texto2{
+    color: hsl(243, 87%, 12%);
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    margin-right: 140px;
+}
+
+.conheca{
+    color: hsl(170, 45%, 43%);
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.conheca:hover{
+    color: hsl(170, 46%, 64%);
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.juntos{
+    display: flex;
+    flex-direction: row;
+}
+
+.seta{
+    width: 20px;
+    height: 20px;
+    margin: 12px 0px 0px 8px;
+}
+
+.quadro-branco{
+    margin-top: 30px;
+    width: 280px;
+    height: 170px;
+    background-color: white;
+    padding: 10px 0px 0px 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px #b9b5b5;
+}
+
+.citacao{
+    color: hsl(243, 87%, 12%);
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 20px;
+}
+
+.autor-citacao{
+    display: flex;
+    flex-direction: row;
+}
+
+.foto-kyle{
+    border-radius: 100px;
+    width: 30px;
+}
+
+.nome-kyle{
+    color: hsl(243, 87%, 12%);
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 1px 0px 6px 15px;
+}
+
+.funcao-kyle{
+    color: hsl(243, 87%, 12%);
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    margin: -8px 0px 0px 15px;
+}
+
+.corpo3{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    background-color: hsl(238, 22%, 44%);
+}
+
+.corpo-esquerda3{
+    margin: 30px 0px 0px 50px;
+    width: 50%;
+}
+
+.corpo-direita3{
+    width: 50%;
+    margin-top: 30px;
+}
+
+.titulo3{
+    color: hsl(240, 75%, 98%);
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.texto3{
+    color: hsl(0, 0%, 75%);
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -25px;
+    margin-right: 180px;
+}
+
+.entrada-texto2{
+    margin-top: 30px;
+    width: 420px;
+    height: 35px;
+}
+
+.botao2{
+    margin-top: 15px;
+    width: 200px;
+    height: 40px;
+    background-color: hsl(224, 93%, 58%);
+    color: hsl(240, 75%, 98%);
+    border-radius: 5px;
+    border-color: hsl(224, 93%, 58%);
+    cursor: pointer;
+}
+
+.botao2:hover{
+    margin-top: 15px;
+    width: 200px;
+    height: 40px;
+    background-color: hsl(224, 91%, 69%);
+    color: hsl(240, 75%, 98%);
+    border-radius: 5px;
+    border-color: hsl(224, 91%, 69%);
+    cursor: pointer;
+}
+
+.corpo4{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    background-color: hsl(243, 87%, 12%);
+}
+
+.corpo-esquerda1a{
+    width: 25%;
+}
+
+.corpo-esquerda1b{
+    margin: 150px 0px 0px 120px;
+    width: 25%;
+}
+
+.corpo-direita1a{
+    margin: 150px 0px 0px 120px;
+    width: 25%;
+}
+
+.corpo-direita1b{
+    margin: 160px 0px 0px 12px;
+    width: 25%;
+}
+
+.logo2{
+    margin: 100px 0px 0px 50px;
+    filter: invert(50%);
+}
+
+.telefone{
+    margin: 20px 0px 0px 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.telefone-foto{
+    width: 20px;
+    height: 20px;
+}
+
+.telefone-texto{
+    color: hsl(240, 75%, 98%);
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin: -2px 0px 0px 20px;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.email-foto{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.email-texto{
+    color: hsl(240, 75%, 98%);
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 8px 0px 0px 20px;
+}
+
+.sobre-nos{
+    color: hsl(240, 75%, 98%);
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.sobre-nos:hover{
+    color: hsl(224, 93%, 58%);
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 80px;
+}
+
+.contato{
+    color: hsl(240, 75%, 98%);
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.contato:hover{
+    color: hsl(224, 93%, 58%);
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+
+.redes-sociais{
+    width: 30px;
+    border: 2px solid white;
+    border-radius: 100px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.redes-sociais:hover{
+    width: 30px;
+    border: 2px solid hsl(224, 93%, 58%);
+    color: hsl(224, 93%, 58%);
+    border-radius: 100px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+    @media screen and (max-device-width: 375px) {
+        body{
+            background-color: hsl(240, 75%, 98%);
+        }
+        
+        .cabecalho{
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .cabecalho-esquerda{
+            margin: 30px 1px 1px 0px;
+        }
+        
+        .cabecalho-direita{
+            margin-top: 20px;
+        }
+        
+        .logo1{
+            width: 120px;
+            height: 30px;
+            margin-left: 5px;
+            margin-right: 25px;
+        }
+        
+        .menu{
+            display: flex;
+            flex-direction: row;
+            justify-items: right;
+            margin-left: 0px;
+            margin-left: -105px;
+        }
+        
+        .menu-opcoes{
+            margin-right: 1px;
+            font-size: 13px;
+            font-family: 'Open Sans', sans-serif;
+            color: hsl(238, 22%, 44%);
+            margin-left: 10px;
+        }
+        
+        .corpo1{
+            display: flex;
+            flex-direction: column-reverse;
+            height: 550px;
+            margin-top: 100px;
+        }
+        
+        .corpo-esquerda1{
+            margin: 90px 0px 0px 0px;
+            width: 100%;
+        }
+        
+        .corpo-direita1{
+            width: 100%;
+            margin-top: 50px;
+        }
+        
+        .foto1{
+            width: 300px;
+            height: 300px;
+            margin-left: 30px;
+        }
+        
+        .titulo1{
+            width: 100%;
+            color: hsl(243, 87%, 12%);
+            font-size: 25px;
+            font-family: 'Raleway', sans-serif;
+            margin-top: -60px;
+            text-align: center;
+        }
+        
+        .texto1{
+            color: hsl(243, 87%, 12%);
+            font-size: 15px;
+            font-family: 'Open Sans', sans-serif;
+            margin-top: -20px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .entrada-texto1{
+            width: 300px;
+            height: 35px;
+            margin-left: 25px;
+        }
+        
+        .botao1{
+            width: 310px;
+            height: 40px;
+            background-color: hsl(224, 93%, 58%);
+            color: hsl(240, 75%, 98%);
+            border-radius: 5px;
+            border-color: hsl(224, 93%, 58%);
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+        
+        .corpo2{
+            display: flex;
+            flex-direction: column-reverse;
+            height: 1160px;
+            margin-top: -250px;
+        }
+        
+        .corpo-esquerda2{
+            margin: 90px 0px 0px 0px;
+            width: 100%;
+        }
+        
+        .corpo-direita2{
+            width: 100%;
+            margin-top: 30px;
+        }
+        
+        .foto2{
+            width: 300px;
+            height: 300px;
+            margin-left: 30px;
+            margin-top: -50px;
+        }
+        
+        .titulo2{
+            color: hsl(243, 87%, 12%);
+            font-size: 25px;
+            font-family: 'Raleway', sans-serif;
+            margin-top: -60px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .texto2{
+            color: hsl(243, 87%, 12%);
+            font-size: 15px;
+            font-family: 'Open Sans', sans-serif;
+            margin-top: 10px;
+            margin-top: -20px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .conheca{
+            color: hsl(170, 45%, 43%);
+            font-size: 15px;
+            font-family: 'Open Sans', sans-serif;
+            margin-top: 10px;
+            margin-left: 100px;
+            text-align: center;
+        }
+        
+        .juntos{
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .seta{
+            width: 20px;
+            height: 20px;
+            margin: 12px 0px 0px 5px;
+        }
+        
+        .quadro-branco{
+            margin-top: 30px;
+            margin-bottom: 50px;
+            margin-left: 40px;
+            width: 260px;
+            height: 170px;
+            background-color: white;
+            padding: 10px 0px 0px 20px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 10px 1px #b9b5b5;
+        }
+        
+        .citacao{
+            color: hsl(243, 87%, 12%);
+            font-size: 12px;
+            font-family: 'Open Sans', sans-serif;
+            margin-right: 10px;
+        }
+        
+        .autor-citacao{
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .foto-kyle{
+            border-radius: 100px;
+            width: 30px;
+        }
+        
+        .nome-kyle{
+            color: hsl(243, 87%, 12%);
+            font-size: 10px;
+            font-family: 'Open Sans', sans-serif;
+            margin: 1px 0px 6px 15px;
+        }
+        
+        .funcao-kyle{
+            color: hsl(243, 87%, 12%);
+            font-size: 10px;
+            font-family: 'Open Sans', sans-serif;
+            margin: -8px 0px 0px 15px;
+        }
+        
+        .corpo3{
+            display: flex;
+            flex-direction: column;
+            height: 300px;
+            background-color: hsl(238, 22%, 44%);
+        }
+        
+        .corpo-esquerda3{
+            margin: 30px 0px 0px 0px;
+            width: 100%;
+        }
+        
+        .corpo-direita3{
+            width: 100%;
+            margin-top: 0px;
+        }
+        
+        .titulo3{
+            color: hsl(240, 75%, 98%);
+            font-size: 25px;
+            font-family: 'Raleway', sans-serif;
+            margin-top: -10px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .texto3{
+            color: hsl(0, 0%, 75%);
+            font-size: 15px;
+            font-family: 'Open Sans', sans-serif;
+            margin-top: -10px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .entrada-texto2{
+            margin-top: 20px;
+            width: 300px;
+            height: 35px;
+            margin-left: 30px;
+        }
+        
+        .botao2{
+            margin-top: 15px;
+            width: 310px;
+            height: 40px;
+            background-color: hsl(224, 93%, 58%);
+            color: hsl(240, 75%, 98%);
+            border-radius: 5px;
+            border-color: hsl(224, 93%, 58%);
+            margin-left: 30px;
+        }
+        
+        .corpo4{
+            display: flex;
+            flex-direction: column;
+            height: 650px;
+            background-color: hsl(243, 87%, 12%);
+        }
+        
+        .corpo-esquerda1a{
+            width: 100%;
+            margin-top: -30px;
+        }
+        
+        .corpo-esquerda1b{
+            margin: 50px 0px 0px -30px;
+            width: 100%;
+        }
+        
+        .corpo-direita1a{
+            margin: 10px 0px 0px 30px;
+            width: 100%;
+        }
+        
+        .corpo-direita1b{
+            margin: 30px 0px 0px 100px;
+            width: 100%;
+        }
+        
+        .logo2{
+            margin: 100px 0px 0px 50px;
+            filter: invert(50%);
+        }
+        
+        .telefone{
+            margin: 20px 0px 0px 50px;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .telefone-foto{
+            width: 20px;
+            height: 20px;
+        }
+        
+        .telefone-texto{
+            color: hsl(240, 75%, 98%);
+            font-size: 15px;
+            font-family: 'Open Sans', sans-serif;
+            margin: -2px 0px 0px 20px;
+        }
+        
+        .email{
+            display: flex;
+            flex-direction: row;
+            margin-left: 50px;
+        }
+        
+        .email-foto{
+            width: 20px;
+            height: 20px;
+            margin-top: 10px;
+        }
+        
+        .email-texto{
+            color: hsl(240, 75%, 98%);
+            font-size: 15px;
+            font-family: 'Open Sans', sans-serif;
+            margin: 8px 0px 0px 20px;
+        }
+        
+        .sobre-nos{
+            color: hsl(240, 75%, 98%);
+            font-size: 15px;
+            font-family: 'Open Sans', sans-serif;
+            margin-left: 80px;
+            cursor: pointer;
+        }
+        
+        .sobre-nos:hover{
+            color: hsl(224, 93%, 58%);
+            font-size: 15px;
+            font-family: 'Open Sans', sans-serif;
+            margin-left: 80px;
+        }
+        
+        .contato{
+            color: hsl(240, 75%, 98%);
+            font-size: 15px;
+            font-family: 'Open Sans', sans-serif;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+        
+        .contato:hover{
+            color: hsl(224, 93%, 58%);
+            font-size: 15px;
+            font-family: 'Open Sans', sans-serif;
+            margin-left: 20px;
+        }
+        
+        .redes-sociais{
+            width: 30px;
+            border: 2px solid white;
+            border-radius: 100px;
+            margin-right: 15px;
+            cursor: pointer;
+        }
+        
+        .redes-sociais:hover{
+            width: 30px;
+            border: 2px solid hsl(224, 93%, 58%);
+            color: hsl(224, 93%, 58%);
+            border-radius: 100px;
+            margin-right: 15px;
+            cursor: pointer;
+        }
+    }
